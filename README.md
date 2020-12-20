@@ -1,9 +1,8 @@
 # Hello-Code
-Repo containing resources for getting started with programming, including environemtn set up and hello world walkthroughs.
+Repo containing resources for getting started with programming, including environment set up and hello world walkthroughs.
 
 
 ## Overview of Contents:
----
 
 ### Hello Development
 Directory containing containing instructions, links, and resources for getting a basic development environment set up. Includes instructions for installing tools and editors, as well as the instructions for getting this repo forked and cloned onto a local machine.

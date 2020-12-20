@@ -1,7 +1,7 @@
 # Hello Development
 This document will walk you through the steps required to getset up with all of the basic tools that will be used throughout each of the "lessons" within this repo. 
 
-***NOTE:*** *There are many different tools used by developers and they all have their own advantages and disadvantages. The setup provided in this document is meant to be a starting point that individuals learning to program can use throughout their learning process. This is not meant to serve as an exhaustive list of all tools that are availiable or meant to be an example of the "ideal environment setup" it simply is a setup to get indiciduals up and running.*
+***NOTE:*** *There are many different tools used by developers and they all have their own advantages and disadvantages. The setup provided in this document is meant to be a starting point that individuals learning to program can use throughout their learning process. This is not meant to serve as an exhaustive list of all tools that are availiable or meant to be an example of the "ideal environment setup" it simply is a setup to get individuals up and running.*
 
 ## Getting the tools you need:
 
