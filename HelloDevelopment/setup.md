@@ -44,7 +44,11 @@ Direnv is an extension that is used by your shell in order to manage environment
 
 1. The direnv package can be installed using homebrew by entering the folowing command in your terminal: ```brew install direnv```
 
+>>![installing direnv](../assets/install_direnv.png)
+
 2. Once the package is finished installing you will need to add the extension to your shell. Depending on what type of shell you are using the command will look a little different. To identify what shell you are using run the following command in your terminal: ```echo $0```
+
+>>![checking shell type](../assets/check_shell.png)
 
 3. Navigate to https://direnv.net/docs/hook.html and follow the steps corresponding to the shell type you identified in step 2. In the steps linked above you will be instructed to add a line to a file with a specific name. In order to do this you can follow these steps:
 >1. Move into your root directory using the command ```cd ~```
@@ -52,4 +56,7 @@ Direnv is an extension that is used by your shell in order to manage environment
 >3. activate insert mode in vim by hitting the 'i' key on your keyboard.
 >4. paste the command from the linked documentation on the last line of the file
 >5. hit the escape key then type ```:wq``` to save the changes and exit vim.
+
+
+>>![hooking direnv into shell](../assets/direnv_hook.gif)
 
