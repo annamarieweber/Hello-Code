@@ -38,3 +38,18 @@ Git is a version control tool used for tracking changes as you write code. You c
 
 1. Run the following command in your terminal: ```git --version``` If you have git installed you are finished. Otherwise you will be prompted asking if you would like to install it. Follow the prompts in order to complete the installation. 
 
+### Direnv
+
+Direnv is an extension that is used by your shell in order to manage environment configuration settings at a directory level. This provides more granular control over how your environment is needing to be set up depending on the project you are working on (and the directory it is located it). You can set up direnv by following the steps below.
+
+1. The direnv package can be installed using homebrew by entering the folowing command in your terminal: ```brew install direnv```
+
+2. Once the package is finished installing you will need to add the extension to your shell. Depending on what type of shell you are using the command will look a little different. To identify what shell you are using run the following command in your terminal: ```echo $0```
+
+3. Navigate to https://direnv.net/docs/hook.html and follow the steps corresponding to the shell type you identified in step 2. In the steps linked above you will be instructed to add a line to a file with a specific name. In order to do this you can follow these steps:
+>1. Move into your root directory using the command ```cd ~```
+>2. open the file using vim with the following command ```vim filename```
+>3. activate insert mode in vim by hitting the 'i' key on your keyboard.
+>4. paste the command from the linked documentation on the last line of the file
+>5. hit the escape key then type ```:wq``` to save the changes and exit vim.
+
