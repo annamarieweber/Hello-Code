@@ -70,7 +70,7 @@ This should provide a high level overview of what exactly git is, but for more l
 
     ![cloning](../assets/update_file.png)
 
-2. save your changes and then add them to your working tree using the following command ```git add Hello-Code/HelloGit/HelloGit.txt```
+2. save your changes and then add them to your working tree using the following command ```git add HelloGit/HelloGit.txt```
 
 3. commit your changes using the command ```git commit -m "hello git"```
 
