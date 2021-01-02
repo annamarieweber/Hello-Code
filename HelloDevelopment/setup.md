@@ -52,12 +52,15 @@ Direnv is an extension that is used by your shell in order to manage environment
 
 3. Navigate to https://direnv.net/docs/hook.html and follow the steps corresponding to the shell type you identified in step 2. In the steps linked above you will be instructed to add a line to a file with a specific name. In order to do this you can follow these steps:
     >
-    1. Move into your root directory using the command ```cd ~```
-    2. open the file using vim with the following command ```vim filename```
-    3. activate insert mode in vim by hitting the 'i' key on your keyboard.
-    4. paste the command from the linked documentation on the last line of the file
-    5. hit the escape key then type ```:wq``` to save the changes and exit vim.
+    A. Move into your root directory using the command ```cd ~```
+    >
+    B. open the file using vim with the following command ```vim filename```
+    >
+    C. activate insert mode in vim by hitting the 'i' key on your keyboard.
+    >
+    D. paste the command from the linked documentation on the last line of the file
+    >
+    E. hit the escape key then type ```:wq``` to save the changes and exit vim.
    
     >
     ![hooking direnv into shell](../assets/direnv_hook.gif)
-
