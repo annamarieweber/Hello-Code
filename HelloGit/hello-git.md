@@ -1,5 +1,5 @@
 # Hello Git
-This document will walk through the steps required to get this repository onto your local machine. It will also introduce git and the common commands that will be useful in order to use git.
+This document will walk through the steps required to get this repository forked and cloned onto your local machine. It will also introduce git and the common commands that will be useful in order to use git.
 
 ## What is Git?
 Git is a tool for version control. It is used to track changes as they are made to a project. This offers greater control over changes made to a project and provides the ability to roll back to previous revisions if needed. Below is an analogy which should help provide a better picture of how git works.
@@ -12,7 +12,7 @@ Git provides this for you... while it wont allow you to time travel it does allo
 
 Going back to our painting analogy imagine if every time you finished making changes to your painting you took a photo and then uploaded it to a hypothetical time machine. With this "time machine" you could select any image uploaded to it and it would modify your painting to the state it was in in the photo you selected.
 
-This is similar to the manner in which git behaves. YOu can think of git as a tool that will revert your project back into any state that you have "captured an image of" except with git instead of taking actual photos you create commits. 
+This is similar to the manner in which git behaves. You can think of git as a tool that will revert your project back into any state that you have "captured an image of" except with git instead of taking actual photos you create commits. 
 
 Commits have messages attached to them which you use to explain what changes you have made. This makes it easier for you to actually point to a specific place you would like to revert to. 
 
@@ -43,24 +43,39 @@ When you pull changes from a remote repository it is like downloading the photos
 This should provide a high level overview of what exactly git is, but for more learning and information there are a number of great resources that exist and a few of them will be linked at the end of this lesson.
 
 ## Getting Started with Git
+### Forking this repository 
+1. navigate to https://github.com/annamarieweber/Hello-Code
+2. in the top right hand corner of the page click the button that says fork and follow the prompts to create a fork of this repository
 
-### Cloning this repository
+    ![fork](../assets/fork.png)
+
+
+
+
+### Cloning the forked repository
 1. open your terminal and navigate to whatever directory you wish to use for keeping your coding projects. For me I use a directory at the root level of my system named code but it is totally up to personal preference. 
-2. once you are in the desired directory run the following command ```git clone https://github.com/annamarieweber/Hello-Code.git``` this performs a clone and will get this repository onto your local machine.
+
+2. once you are in the desired directory run the following command ```git clone https://github.com/your_username/Hello-Code.git``` replacing ```your_username``` with your github username is this performs a clone and will get your fork of the repository onto your local machine.
+
+    ![cloning](../assets/clone.png)
 
 ### Creating a branch
 1. from your terminal navigate to the project directory using the command ```cd Hello-Code```
 2. create a branch to work from using the command ```git checkout -b my-first-branch```
 
+    ![cloning](../assets/create_branch.png)
+
 ### Making a Change
 1. Navigate to the HelloGit.txt file in this directory and add your favorite color to the last line of the file
+
+    ![cloning](../assets/update_file.png)
 
 2. save your changes and then add them to your working tree using the following command ```git add Hello-Code/HelloGit/HelloGit.txt```
 
 3. commit your changes using the command ```git commit -m "hello git"```
 
-4. push your changes using the following command ```git push origin my-first-branch```
+    ![cloning](../assets/add_commit.png)
 
-### Creating a Pull request
+4. push your changes using the following command ```git push origin my-first-branch```
 
 
