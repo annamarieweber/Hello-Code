@@ -3,7 +3,7 @@ name: Task Template
 about: Tasks that need to be completed by the repository maintainer.
 title: "[Task]"
 labels: task
-assignees: ''
+assignees: annamarieweber
 
 ---
 
